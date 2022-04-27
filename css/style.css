@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'Graphik';
+  src: url("../fonts/GraphikBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, h6, .h6, b {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+  font-family: 'Graphik', sans-serif;
+}
+
+.port-1, .port-2, .port-3 {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.port-1:hover, .port-2:hover, .port-3:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+body {
+  background-color: #19191B;
+  color: #FFFFFF;
+}
+
+h1, .h1 {
+  font-size: 5em;
+}
+
+h2, .h2 {
+  font-size: 4rem;
+}
+
+h3, .h3 {
+  font-size: 2.5em;
+}
+
+h4, .h4 {
+  font-size: 1.5em;
+}
+
+h5, .h5 {
+  font-size: 1em;
+}
+
+h6, .h6 {
+  font-weight: 600;
+  font-size: 28px;
+}
+
+b {
+  font-weight: 600;
+}
+
+header {
+  margin-bottom: 150px;
+  background: url("../images/bg-header.png");
+  background-position: top;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+footer {
+  padding: 50px 0px;
+}
+
+.header {
+  padding-top: 50px;
+}
+
+.video {
+  background-image: url("../images/video-thumb.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.btn-play {
+  width: 100px;
+  height: 100px;
+  margin: 250px 0px;
+  padding-top: 5px;
+  padding-left: 10px;
+  background-color: #5454D4;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  font-size: 50px;
+}
+
+.main-section {
+  padding-top: 200px;
+  background: url("../images/bg-main.png");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn-play:hover {
+  background-color: #FFFFFF;
+  color: #5454D4;
+}
+
+#portfolio {
+  padding: 150px 0px 200px 0px;
+}
+
+#sectionContact {
+  padding: 200px 0px;
+  background-image: url("../images/contact-section.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.port-1 {
+  margin-top: 20px;
+}
+
+.port-2 {
+  margin-top: 100px;
+}
+
+.port-3 {
+  margin-top: 200px;
+}
+
+.carousel-indicators {
+  position: unset;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #121213;
+}
+
+.carousel-indicators .active {
+  background-color: #5454D4;
+}
+
+.text-active {
+  color: #5454D4;
+}
+
+.bg-active {
+  background-color: #5454D4;
+}
+
+@media only screen and (max-width: 768px) {
+  .port-1 {
+    margin-top: 0px;
+  }
+  .port-2 {
+    margin-top: 0px;
+  }
+  .port-3 {
+    margin-top: 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
