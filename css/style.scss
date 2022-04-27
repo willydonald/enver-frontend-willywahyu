@@ -33,12 +33,12 @@ body {
 
 h1, .h1 {
     @extend %font-black;
-    font-size: 5em;
+    font-size: 4.5em;
 }
 
 h2, .h2 {
     @extend %font-black;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 h3, .h3 {
@@ -84,6 +84,7 @@ footer {
 }
 
 .video {
+    width: 100%;
     background-image: url('../images/video-thumb.png');
     background-size: cover;
     background-position: center;
