@@ -33,12 +33,12 @@ body {
 
 h1, .h1 {
     @extend %font-black;
-    font-size: 4.5em;
+    font-size: 4em;
 }
 
 h2, .h2 {
     @extend %font-black;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 h3, .h3 {
@@ -59,7 +59,7 @@ h5, .h5 {
 h6, .h6 {
     @extend %font-reguler;
     font-weight: 600;
-    font-size: 28px;
+    font-size: 25px;
 }
 
 b {
